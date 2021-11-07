@@ -1,0 +1,27 @@
+{% set pageTitle = title + ' - ' + site.name %}
+
+{% if site.name === title %}
+  {% set pageTitle = title %}
+{% endif %}{% set siteTitle = site.name %}{% set
+currentUrl = site.url + page.url %}
+
+{% if metaTitle %}
+  {% set pageTitle = metaTitle %}
+{% endif %}
+{% if not metaDescription %}
+  {% set metaDescription = summary %}
+{% endif %}
+
+<title>{{ pageTitle }}</title>
+<link rel="canonical" href="{{ currentUrl }}"/>
+<meta property="og:site_name" content="{{ siteTitle }}"/>
+<meta property="og:title" content="{{ pageTitle }}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="{{ currentUrl }}"/>
+
+{% if metaDescription %}
+  <meta name="description" content="{{ metaDescription }}"/>
+  <meta name="twitter:description" content="{{ metaDescription }}"/>
+  <meta property="og:description" content="{{ metaDescription }}"/>
+{% endif %}
+<link rel="icon" href="/images/meta/favicon.svg" type="image/svg+xml" />

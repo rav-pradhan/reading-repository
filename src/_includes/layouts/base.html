@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    {% include "partials/meta.html" %}
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <style>
+      {% include "css/critical.css" %}
+    </style>
+  </head>
+  <body>
+    <a class="[ skip-link ]" href="#main-content">Skip to content</a>
+    <div class="[ cover ]">
+      <hr>
+      {% include "partials/siteHeader.html" %}
+      <main tabindex="-1" id="main-content" class="[ flow ]">
+        {% block content %}{% endblock %}
+      </main>
+      <hr>
+      {% include "partials/siteFooter.html" %}
+    </div>
+  </body>
+</html>
