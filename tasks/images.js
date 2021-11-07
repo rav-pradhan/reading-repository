@@ -1,7 +1,7 @@
 const { dest, src } = require("gulp");
 const imagemin = require("gulp-imagemin");
 const images = () => {
-  return src("./src/images/**/*")
+  return src("./src/resources/**/*.(jpg|jpeg|png)")
     .pipe(
       imagemin(
         [
@@ -11,6 +11,6 @@ const images = () => {
         { silent: true }
       )
     )
-    .pipe(dest("./dist/images"));
+    .pipe(dest("./dist/resources/**"));
 };
 module.exports = images;
