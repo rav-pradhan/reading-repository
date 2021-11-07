@@ -4,7 +4,7 @@
 		<h2>{{ category.title }}</h2>
 		<div class="[ flow ]">
 			{% for paragraph in category.description %}
-				<p>{{ paragraph }}</p>
+			<p>{{ paragraph }}</p>
 			{% endfor %}
 		</div>
 		<ul class="[ section-overviews__book ] [ flow ]">
@@ -18,11 +18,14 @@
 					<p>{{ book.summary }}</p>
 					<a href="/resources/{{category.slug}}/{{book.slug}}">Read
 						more <span class="visually-hidden">about {{ book.title
+							}}</span></a> &nbsp;/
+					<a href="{{book.link}}">Buy <span class="visually-hidden">{{ book.title
 							}}</span></a>
 				</div>
 				<div>
 					<img src="resources/{{category.slug}}/{{ book.image_url }}"
-						loading="lazy" alt="{{ book.title }} cover" width="161" height="240">
+						loading="lazy" alt="{{ book.title }} cover" width="161"
+						height="240">
 				</div>
 			</li>
 			{% endfor %}

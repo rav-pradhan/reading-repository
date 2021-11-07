@@ -14,7 +14,7 @@ module.exports = (config) => {
 	// Collections
 	config.addCollection("categories", (collection) => require('./src/transforms/buildCategories')(collection, resourceDirectory))
 
-	config.addPassthroughCopy("src/resources/**/*.jpg")
+	config.addPassthroughCopy("src/resources/**/*.(jpg|jpeg|png)")
 
 	return {
 		markdownTemplateEngine: "njk",
