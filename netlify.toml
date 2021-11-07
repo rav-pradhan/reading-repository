@@ -4,4 +4,4 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "0"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'self'; style-src 'self' unpkg.com/modern-css-reset/dist/reset.min.css 'sha256-rrpPWXxL83TeYiOy9/f73Z7N4wN852cvskf6OelCKx0='; font-src 'self' fonts.googleapis.com fonts.gstatic.com; form-action 'self'; script-src 'self'; connect-src 'self'; img-src 'self'; object-src 'self'; base-uri 'self';"
+    Content-Security-Policy = "default-src 'self'; style-src 'self' fonts.googleapis.com fonts.gstatic.com unpkg.com/modern-css-reset/dist/reset.min.css 'sha256-rrpPWXxL83TeYiOy9/f73Z7N4wN852cvskf6OelCKx0='; font-src 'self' fonts.googleapis.com fonts.gstatic.com; form-action 'self'; script-src 'self'; connect-src 'self'; img-src 'self'; object-src 'self'; base-uri 'self';"
