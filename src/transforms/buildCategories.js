@@ -20,6 +20,7 @@ function buildBooks(bookMarkdown, categorySlug) {
 		return {
 			category: categorySlug,
 			title: book.data.title,
+			link: book.data.link,
 			image_url: book.data.image_url,
 			author: book.data.author,
 			url: book.url,
