@@ -358,6 +358,10 @@ footer {
 	font-family: "Fjalla One", sans-serif;
 	transition: .2s ease-in-out;
 
+	@media (max-width: 600px) {
+		width: 35%;
+	}
+
 	&:hover {
 		background-color: var(--accent-dark);
 	}

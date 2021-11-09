@@ -1,5 +1,6 @@
 ---
 title: "Service Design"
+position: 3
 ---
 
 Service design is a challenging space that intersects with myriad disciplines, including user research, interaction design, and software development.

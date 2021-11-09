@@ -14,8 +14,6 @@ breadcrumbs:
 layout: "layouts/article.html"
 ---
 
-## Impressions
-
 Responsible JavaScript's greatest strength is that it isn't a book that's _just_ about JavaScript.
 
 Sure, you will learn an incredible amount about JavaScript by reading this book. But the theme that underpins Wagner's writing is that JavaScript is but a single component of the web experience - one that we need to craft with meaning and deftness.

@@ -12,4 +12,6 @@ breadcrumbs:
   link: "/#service-design"
 - name: "Design for Real Life"
 layout: "layouts/article.html"
+publisher: "A Book Apart"
+pages: 132
 ---

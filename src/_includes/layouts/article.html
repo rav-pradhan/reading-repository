@@ -19,14 +19,19 @@
 		<div>
 			<h1>{{ title }}</h1>
 			<h2 class="accent">{{ author }}</h2>
+			{% if pages %}<h3><span class="accent">{{ pages }}</span> pages</h3>{% endif %}
+			{% if publisher %}<h3>Published by <span class="accent">{{ publisher }}</span></h3>{% endif %}
 		</div>
 		<div class="[ flow ]">
 			<img src="/resources/{{category}}/{{ image_url }}"
-			loading="lazy" alt="{{ title }} cover" width="161" height="240">
+			loading="lazy" alt="{{ title }} cover" width="250" height="360">
 			<a class="button" href="{{link}}">Buy</a>
 		</div>
 	</div>
-	<div class="[ flow ]">{{ content | safe }}</div>
+	<div class="[ flow ]">
+		<h2>Impressions</h2>
+		{{ content | safe }}
+	</div>
 </article>
 
 {% endblock %}

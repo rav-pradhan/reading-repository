@@ -1,5 +1,6 @@
 ---
 title: "Systems Thinking"
+position: 4
 ---
 
 Systems Thinking is a holistic, analytical framework that views everything observable in the world as a series of systems interlocking and interfacing through a mixture of feedback loops.

@@ -1,5 +1,4 @@
 const minifyHTML = require("./src/transforms/minifyHtml");
-const markdownIt = require("markdown-it");
 
 const isProduction = process.env.NODE_ENV === "production"
 const resourceDirectory = "src/resources"
