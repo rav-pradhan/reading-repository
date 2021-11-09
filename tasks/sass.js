@@ -13,7 +13,7 @@ const calculateOutput = ({ history }) => {
   let response = "./dist/css";
   const sourceFileName = /[^/]*$/.exec(history[0])[0];
   if (criticalStyles.includes(sourceFileName)) {
-    response = "./src/_includes/css";
+    response = "./dist/css";
   }
   return response;
 };
