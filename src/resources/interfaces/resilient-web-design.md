@@ -12,6 +12,9 @@ breadcrumbs:
   link: "/#interfaces"
 - name: "Resilient Web Design"
 layout: "layouts/article.html"
+freeResource: true
 ---
 
-If you work closely or adjacently with the web, it is incumbent on you to read Jeremy Keith's treatise on its history and philosophy. An inspiring read.
+> "As long as the core functionality is available using the simplest possible technology, you can—with a clear conscience—layer on more advanced features."
+
+_more thoughts to follow..._

@@ -16,6 +16,8 @@ pages: 352
 publisher: Addison-Wesley Professional
 ---
 
-A book that has been recommended to software develoeprs for decades, regardless of domain or discipline. _The Pragmatic Programmer_ breaks down its irreplaceable wisdom into bitesize pieces, which makes it a breeze to read and a valuable reference tome to keep on your desk. 
+> "We want to see pride of ownership. “I wrote this, and I stand behind my work.” Your signature should come to be recognized as an indicator of quality. People should see your name on a piece of code and expect it to be solid, well written, tested, and documented. A really professional job. Written by a real professional. A Pragmatic Programmer."
+
+A book that has been recommended to software develoeprs for decades, regardless of domain or discipline. _The Pragmatic Programmer_ breaks down its irreplaceable wisdom into bitesize pieces, which makes it a breeze to read and a valuable reference tome to keep on your desk.
 
 Its timelesness lies in the fact that the book guides you through universal software best practices: object-oriented design, composition, DRY, SOLID principles, testing, and perhaps most importantly, what it means to be a professional software developer working within a team and wider organisation.

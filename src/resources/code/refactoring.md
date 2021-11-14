@@ -16,6 +16,8 @@ pages: 448
 publisher: Addison-Wesley Professional
 ---
 
-Refactoring is a concept in software that has become misinterpreted and maladapted. It's a common refrain to hear that a ticket is required to cover refactoring work. In truth, refactoring should be something that we do as we work. Like mowing the lawn, if we leave it for too long, then it's a much more arduous process than if we are to do it consistently instead.
+> "We'll refactor this when we've got time" - A dev team, somewhere
+
+Refactoring is a concept in software that has become heavily misinterpreted, and chances are, you've heard the quote above in some form or another. In truth, refactoring should be something that we do as we work. Like mowing the lawn, if we leave it for too long, then it's a much more arduous process than if we are to do it consistently instead.
 
 Martin Fowler's book, _Refactoring_, provides you with a wealth of potential refactors and the use cases for them. These will equip you with the skills to ensure that the codebases you work with are developed with care and sustainability in mind.

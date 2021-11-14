@@ -7,28 +7,32 @@
 			{% for breadcrumb in breadcrumbs %}
 			<li>
 				{% if loop.last %}
-					{{ breadcrumb.name }}
+				{{ breadcrumb.name }}
 				{% else %}
-					<a href="{{breadcrumb.link}}">{{ breadcrumb.name }}</a>
+				<a href="{{breadcrumb.link}}">{{ breadcrumb.name }}</a>
 				{% endif %}
 			</li>
 			{% endfor %}
 		</ol>
 	</nav>
-	<div class="with-sidebar">
+	<div class="[ with-sidebar ]">
 		<div>
 			<h1>{{ title }}</h1>
 			<h2 class="accent">{{ author }}</h2>
-			{% if pages %}<h3><span class="accent">{{ pages }}</span> pages</h3>{% endif %}
-			{% if publisher %}<h3>Published by <span class="accent">{{ publisher }}</span></h3>{% endif %}
+			{% if pages %}<h3><span class="accent">{{ pages }}</span> pages</h3>
+			{% endif %}
+			{% if publisher %}<h3>Published by <span class="accent">{{ publisher
+					}}</span></h3>{% endif %}
 		</div>
 		<div class="[ flow ]">
-			<img src="/resources/{{category}}/{{ image_url }}"
-			loading="lazy" alt="{{ title }} cover" width="250" height="360">
-			<a class="button" href="{{link}}">Buy</a>
+			<img src="/resources/{{category}}/{{ image_url }}" loading="lazy"
+				alt="{{ title }} cover" width="250" height="360">
+			<a class="button" href="{{link}}">{% if freeResource %} View {% else
+				%} Buy {% endif %} <span class="visually-hidden">{{ title
+					}}</span></a></a>
 		</div>
 	</div>
-	<div class="[ flow ]">
+	<div class="[ flow ] [ impressions ]">
 		<h2>Impressions</h2>
 		{{ content | safe }}
 	</div>

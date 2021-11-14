@@ -16,4 +16,6 @@ pages: 222
 publisher: BIS Publishers
 ---
 
-Good Services distils the foundational values of good service design into 15 maxims.
+> "When you’re making the purpose of your service clear, you’ll need to think about four distinct things – what your service does, why it does that thing, how it works and who it’s for."
+
+_more thoughts to follow..._

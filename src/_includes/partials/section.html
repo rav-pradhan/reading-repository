@@ -19,7 +19,7 @@
 					<a href="/resources/{{category.slug}}/{{book.slug}}">Read
 						more <span class="visually-hidden">about {{ book.title
 							}}</span></a> &nbsp;/
-					<a href="{{book.link}}">Buy <span class="visually-hidden">{{ book.title
+					<a href="{{book.link}}">{% if freeResource %} View {% else %} Buy {% endif %} <span class="visually-hidden">{{ book.title
 							}}</span></a>
 				</div>
 				<div>
