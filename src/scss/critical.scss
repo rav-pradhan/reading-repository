@@ -291,6 +291,10 @@ footer {
 		p {
 			--flow-space: var(--size-400);
 		}
+
+		img {
+			object-fit: contain;
+		}
 	}
 }
 
