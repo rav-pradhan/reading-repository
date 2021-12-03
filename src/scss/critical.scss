@@ -296,6 +296,10 @@ footer {
 			object-fit: contain;
 		}
 	}
+
+	&__book-author {
+		@extend h4, .accent;
+	}
 }
 
 .with-sidebar {
@@ -319,6 +323,16 @@ footer {
 
 	@media (max-width: 600px) {
 		margin-top: var(--size-600);
+	}
+}
+
+.article {
+	&__author {
+		@extend h2, .accent;
+	}
+
+	&__meta {
+		@extend h3;
 	}
 }
 

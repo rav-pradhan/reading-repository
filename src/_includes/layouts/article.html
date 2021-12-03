@@ -18,11 +18,11 @@
 	<div class="[ with-sidebar ]">
 		<div>
 			<h1>{{ title }}</h1>
-			<h2 class="accent">{{ author }}</h2>
-			{% if pages %}<h3><span class="accent">{{ pages }}</span> pages</h3>
+			<p class="article__author">{{ author }}</p>
+			{% if pages %}<p class="article__meta"><span class="accent">{{ pages }}</span> pages</p>
 			{% endif %}
-			{% if publisher %}<h3>Published by <span class="accent">{{ publisher
-					}}</span></h3>{% endif %}
+			{% if publisher %}<p class="article__meta">Published by <span class="accent">{{ publisher
+					}}</span></p>{% endif %}
 		</div>
 		<div class="[ flow ]">
 			<img src="/resources/{{category}}/{{ image_url }}" loading="lazy"
