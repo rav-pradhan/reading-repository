@@ -1,19 +1,22 @@
 {% macro category_section() %}
 <div class="[ flow wrapper ] [ section-overviews ]">
-  {% for category in collections.categories %} {% if category.slug == slug %}
+  {% include "partials/breadcrumbs.html" %} {% for category in
+  collections.categories %} {% if category.slug == slug %}
   <section id="{{category.slug}}">
-    <h2>{{ category.title }}</h2>
     <div class="[ flow ]">
-      {% for paragraph in category.description %}
-      <p>{{ paragraph }}</p>
-      {% endfor %}
+      <h1>{{ category.title }}</h1>
+      <div>
+        {% for paragraph in category.description %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
     </div>
     <ul class="[ section-overviews__book ] [ flow ]">
       {% for book in category.books %}
       <li id="{{book.slug}}" class="[ with-sidebar ]">
         <div class="[ flow ]">
           <div>
-            <h3>{{ book.title }}</h3>
+            <h2>{{ book.title }}</h2>
             <p class="section-overviews__book-author">{{ book.author }}</p>
           </div>
           <p>{{ book.summary }}</p>

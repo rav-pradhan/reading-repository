@@ -3,6 +3,11 @@ title: "Service Design"
 slug: "service-design"
 layout: "layouts/category-home.html"
 position: 3
+breadcrumbs:
+- name: "Home"
+  link: "/"
+- name: "Service Design"
+  link: "/resources/service-design"
 ---
 
 Service design is a challenging space that intersects with myriad disciplines, including user research, interaction design, and software development.
