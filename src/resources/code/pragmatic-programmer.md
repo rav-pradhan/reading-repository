@@ -8,8 +8,8 @@ image_url: "pragmatic-programmer.jpeg"
 breadcrumbs:
 - name: "Home"
   link: "/"
-- name: "code"
-  link: "/#code"
+- name: "Code"
+  link: "/resources/code"
 - name: "The Pragmatic Programmer"
 layout: "layouts/article.html"
 pages: 352

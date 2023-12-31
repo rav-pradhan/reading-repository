@@ -9,7 +9,7 @@ breadcrumbs:
 - name: "Home"
   link: "/"
 - name: "Interfaces"
-  link: "/#interfaces"
+  link: "/resources/interfaces"
 - name: "Every Layout"
 layout: "layouts/article.html"
 ---

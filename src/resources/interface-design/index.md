@@ -1,5 +1,7 @@
 ---
-title: "Interfaces"
+title: "Interface Design"
+slug: "interface-design"
+layout: "layouts/category-home.html"
 position: 2
 ---
 

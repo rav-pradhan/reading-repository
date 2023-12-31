@@ -9,7 +9,7 @@ breadcrumbs:
 - name: "Home"
   link: "/"
 - name: "Systems Thinking"
-  link: "/#systems-thinking"
+  link: "/resources/systems-thinking"
 - name: "Thinking In Systems: A Primer"
 layout: "layouts/article.html"
 pages: 240

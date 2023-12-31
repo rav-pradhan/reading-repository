@@ -1,5 +1,7 @@
 ---
 title: "Service Design"
+slug: "service-design"
+layout: "layouts/category-home.html"
 position: 3
 ---
 

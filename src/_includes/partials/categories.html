@@ -1,12 +1,10 @@
-<ol class="[ grid ] [ categories ]">
-	{% for category in collections.categories %}
-	<li>
-		<a class="[ categories__title ]" href="#{{category.slug}}"><strong>{{ category.title }}</strong></a>
-		<ul class="[ categories__books ]">
-			{% for book in category.books %}
-				<li><a class="[ categories__book ]" href="#{{book.slug}}">{{ book.title }}</a></li>
-			{% endfor %}
-		</ul>
-	</li>
-	{% endfor %}
+<ol class="[ flow ] [ categories ]">
+  {% for category in collections.categories %}
+
+  <li>
+    <a class="[ categories__title ]" href="/resources/{{category.slug}}"
+      ><strong>{{ category.title }}</strong></a
+    >
+  </li>
+  {% endfor %}
 </ol>

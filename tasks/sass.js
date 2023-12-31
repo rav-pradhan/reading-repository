@@ -1,7 +1,7 @@
 const { dest, src } = require("gulp");
 
 const cleanCSS = require("gulp-clean-css");
-const sassProcessor = require("gulp-sass");
+const sassProcessor = require("gulp-sass")(require("sass"));
 
 sassProcessor.compiler = require("sass");
 
@@ -22,14 +22,22 @@ const sass = () => {
   return src("./src/scss/*.scss")
     .pipe(sassProcessor())
     .on("error", sassProcessor.logError)
-    .pipe(cleanCSS(isProduction ? { level: {
-      1: {
-        all: true,
-      },
-      2: {
-        all: true
-      }
-    } } : {}))
+    .pipe(
+      cleanCSS(
+        isProduction
+          ? {
+              level: {
+                1: {
+                  all: true,
+                },
+                2: {
+                  all: true,
+                },
+              },
+            }
+          : {}
+      )
+    )
     .pipe(dest(calculateOutput, { sourceMaps: !isProduction }));
 };
 

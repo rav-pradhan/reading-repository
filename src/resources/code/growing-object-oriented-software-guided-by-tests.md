@@ -8,8 +8,8 @@ image_url: "growing-object-oriented-software.jpeg"
 breadcrumbs:
 - name: "Home"
   link: "/"
-- name: "code"
-  link: "/#code"
+- name: "Code"
+  link: "/resources/code"
 - name: "Growing Object Oriented Software, Guided By Tests"
 layout: "layouts/article.html"
 pages: 384

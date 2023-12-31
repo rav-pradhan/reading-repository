@@ -8,8 +8,8 @@ image_url: "refactoring.jpeg"
 breadcrumbs:
 - name: "Home"
   link: "/"
-- name: "code"
-  link: "/#code"
+- name: "Code"
+  link: "/resources/code"
 - name: "Refactoring"
 layout: "layouts/article.html"
 pages: 448

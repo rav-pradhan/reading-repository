@@ -9,7 +9,7 @@ breadcrumbs:
 - name: "Home"
   link: "/"
 - name: "Interfaces"
-  link: "/#interfaces"
+  link: "/resources/interfaces"
 - name: "Responsible JavaScript"
 layout: "layouts/article.html"
 ---

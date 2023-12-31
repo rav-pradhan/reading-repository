@@ -9,7 +9,7 @@ breadcrumbs:
 - name: "Home"
   link: "/"
 - name: "Service Design"
-  link: "/#service-design"
+  link: "/resources/service-design"
 - name: "Good Services"
 layout: "layouts/article.html"
 pages: 222

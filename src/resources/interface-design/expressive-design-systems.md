@@ -9,7 +9,7 @@ breadcrumbs:
 - name: "Home"
   link: "/"
 - name: "Interfaces"
-  link: "/#interfaces"
+  link: "/resources/interfaces"
 - name: "Expressive Design Systems"
 layout: "layouts/article.html"
 pages: 126

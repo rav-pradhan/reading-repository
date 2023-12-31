@@ -11,7 +11,7 @@
 	--size-900: 4.2rem;
 
 	--accent: rgb(41, 121, 85);
-	--accent-dark: rgb(28,83,58);
+	--accent-dark: rgb(28, 83, 58);
 	--text: #252525;
 	--bg: #f3f3f3;
 }
@@ -35,6 +35,10 @@ a {
 :focus {
 	outline: 2px dashed;
 	outline-offset: 0.25rem;
+}
+
+main {
+	min-height: 75vh;
 }
 
 main:focus {
@@ -239,7 +243,7 @@ hr {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	padding: 0 1rem 1rem 1rem;
+	padding: 0 1rem;
 }
 
 .cover > * {
@@ -373,7 +377,7 @@ footer {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: "Fjalla One", sans-serif;
-	transition: .2s ease-in-out;
+	transition: 0.2s ease-in-out;
 
 	@media (max-width: 600px) {
 		width: 35%;

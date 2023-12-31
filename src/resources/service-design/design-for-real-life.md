@@ -9,7 +9,7 @@ breadcrumbs:
 - name: "Home"
   link: "/"
 - name: "Service Design"
-  link: "/#service-design"
+  link: "/resources/service-design"
 - name: "Design for Real Life"
 layout: "layouts/article.html"
 publisher: "A Book Apart"
