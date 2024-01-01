@@ -1,29 +1,36 @@
-{% extends "layouts/base.html" %}
-
-{% block content %}
+{% extends "layouts/base.html" %} {% block content %}
 <article class="[ flow ] [ wrapper ]">
-	{% include "partials/breadcrumbs.html" %}
-	<div class="[ with-sidebar ]">
-		<div>
-			<h1>{{ title }}</h1>
-			<p class="article__author">{{ author }}</p>
-			{% if pages %}<p class="article__meta"><span class="accent">{{ pages }}</span> pages</p>
-			{% endif %}
-			{% if publisher %}<p class="article__meta">Published by <span class="accent">{{ publisher
-					}}</span></p>{% endif %}
-		</div>
-		<div class="[ flow ]">
-			<img src="/resources/{{category}}/{{ image_url }}" loading="lazy"
-				alt="{{ title }} cover" width="250" height="360">
-			<a class="button" href="{{link}}">{% if freeResource %} View {% else
-				%} Buy {% endif %} <span class="visually-hidden">{{ title
-					}}</span></a></a>
-		</div>
-	</div>
-	<div class="[ flow ] [ impressions ]">
-		<h2>Impressions</h2>
-		{{ content | safe }}
-	</div>
+  {% include "partials/breadcrumbs.html" %}
+  <div class="[ with-sidebar ]">
+    <div>
+      <h1>{{ title }}</h1>
+      <p class="article__author">{{ author }}</p>
+      {% if pages %}
+      <p class="article__meta"><span class="accent">{{ pages }}</span> pages</p>
+      {% endif %} {% if publisher %}
+      <p class="article__meta">
+        Published by <span class="accent">{{ publisher }}</span>
+      </p>
+      {% endif %}
+      <div class="[ flow ] [ impressions ]">
+        <h2>Impressions</h2>
+        {{ content | safe }}
+      </div>
+    </div>
+    <div class="[ flow ]">
+      <img
+        src="/resources/{{category}}/{{ image_url }}"
+        loading="lazy"
+        alt="{{ title }} cover"
+        width="250"
+        height="360"
+      />
+      <a class="button" href="{{link}}"
+        >{% if freeResource %} View {% else %} Buy {% endif %}
+        <span class="visually-hidden">{{ title }}</span></a
+      >
+    </div>
+  </div>
 </article>
 
 {% endblock %}

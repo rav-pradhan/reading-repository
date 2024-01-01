@@ -69,6 +69,10 @@ main:focus {
 		font-size: var(--size-500);
 	}
 
+	&__summary {
+		--flow-space: var(--size-400);
+	}
+
 	&__books {
 		margin-left: 0;
 		padding-left: 0;
@@ -313,6 +317,7 @@ footer {
 
 	@media (max-width: 600px) {
 		flex-direction: column-reverse;
+		gap: var(--size-200);
 	}
 }
 
@@ -354,6 +359,7 @@ footer {
 		margin: 0;
 		padding: 0;
 		display: flex;
+		flex-wrap: wrap;
 		list-style: none;
 
 		li:not(:last-child) {

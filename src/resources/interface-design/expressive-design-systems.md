@@ -1,5 +1,5 @@
 ---
-category: "interfaces"
+category: "interface-design"
 title: "Expressive Design Systems"
 author: "Yesenia Perez-Cruz"
 summary: "An accessible read that serves as a pithy primer into the work and dedication needed to build a design system that's successful across an organisation."
@@ -8,8 +8,8 @@ image_url: "expressive-design-systems.jpeg"
 breadcrumbs:
 - name: "Home"
   link: "/"
-- name: "Interfaces"
-  link: "/resources/interfaces"
+- name: "Interface Design"
+  link: "/resources/interface-design"
 - name: "Expressive Design Systems"
 layout: "layouts/article.html"
 pages: 126

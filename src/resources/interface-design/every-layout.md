@@ -1,5 +1,5 @@
 ---
-category: "interfaces"
+category: "interface-design"
 title: "Every Layout"
 author: "Andy Bell, Heydon Pickering"
 summary: "Perhaps the most valuable web design resource I've ever bought. It has changed the way I compose my CSS for the better, making the most of its modern, algorithmic features."
@@ -8,8 +8,8 @@ image_url: "every-layout.png"
 breadcrumbs:
 - name: "Home"
   link: "/"
-- name: "Interfaces"
-  link: "/resources/interfaces"
+- name: "Interface Design"
+  link: "/resources/interface-design"
 - name: "Every Layout"
 layout: "layouts/article.html"
 ---

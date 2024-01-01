@@ -1,5 +1,5 @@
 ---
-category: "interfaces"
+category: "interface-design"
 title: "Responsible JavaScript"
 author: "Jeremy Wagner"
 summary: "A fundamental read for anyone who wants to write JavaScript that's underpinned by resiliency, empathy and inclusivity."
@@ -8,8 +8,8 @@ image_url: "responsible-js.jpg"
 breadcrumbs:
 - name: "Home"
   link: "/"
-- name: "Interfaces"
-  link: "/resources/interfaces"
+- name: "Interface Design"
+  link: "/resources/interface-design"
 - name: "Responsible JavaScript"
 layout: "layouts/article.html"
 ---

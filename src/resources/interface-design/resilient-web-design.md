@@ -1,5 +1,5 @@
 ---
-category: "interfaces"
+category: "interface-design"
 title: "Resilient Web Design"
 author: "Jeremy Keith"
 summary: "An inspiring read that charts the history of the web and its underlying philosophies, to help us better understand what designing for the web means today."
@@ -8,8 +8,8 @@ image_url: "resilient-web-design.jpg"
 breadcrumbs:
 - name: "Home"
   link: "/"
-- name: "Interfaces"
-  link: "/resources/interfaces"
+- name: "Interface Design"
+  link: "/resources/interface-design"
 - name: "Resilient Web Design"
 layout: "layouts/article.html"
 freeResource: true

@@ -10,4 +10,4 @@ breadcrumbs:
   link: "/resources/code"
 ---
 
-There are myriad books about coding. Here, you'll find a bunch of them that should help you become a better developer, regardless of the languages you use.
+There are tons of books about coding. Here, you'll find a bunch of them that will help you become a better software engineer, regardless of the languages you use.
