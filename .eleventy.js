@@ -14,7 +14,7 @@ module.exports = (config) => {
   config.addCollection("categories", (collection) =>
     require("./src/transforms/buildCategories")(collection, resourceDirectory)
   );
-  config.addPassthroughCopy("src/CNAME");
+  config.addPassthroughCopy("CNAME");
   config.addPassthroughCopy("src/resources/**/*.(jpg|jpeg|png)");
 
   return {
