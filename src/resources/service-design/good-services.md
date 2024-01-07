@@ -18,4 +18,6 @@ publisher: BIS Publishers
 
 > "When you’re making the purpose of your service clear, you’ll need to think about four distinct things – what your service does, why it does that thing, how it works and who it’s for."
 
-_more thoughts to follow..._
+In *Good Services*, Downe lays out a framework for developing "good" services underpinned by [15 universal principles](https://good.services/15-principles-of-good-service-design). The case studies and exploration of the principles are high-level, but insightful; a useful reference, I suspect, for designers.
+
+**Warning**: I'm not sold on the presentation of the book itself, however. The colours throughout the book, alongside the impractical font weight and kerning, ultimately compromised the readability a little for me. Bit of a shame because the content itself is striking enough.
