@@ -20,4 +20,4 @@ publisher: Addison-Wesley Professional
 
 *Modern Software Engineering* attempts to reshape what it means to be a software engineer today. The book distances itself from the prevailing ideas of software engineering as a 'craft', and instead argues that software engineers should (re-)adopt a "scientific, rationalist approach".
 
-The book facilitates this by focusing the reader on a philosophy of software engineering, as opposed to specific languages, frameworks or technologies. *Modern Software Engineering* underpins its discussion with the principles of sustainability, maintainability, and resiliency, illustrating countless ways in which these ideas are at the heart of effective software development.
+The book facilitates this by focusing the reader on a philosophy of software engineering predicated on systems thinking, as opposed to prevailing ideas associated with specific languages, frameworks or technologies. *Modern Software Engineering* illustrates in countless ways how this philosophy is at the heart of effective software development.
